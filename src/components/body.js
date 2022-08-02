@@ -66,31 +66,13 @@ class Content extends React.Component {
                
                 <div className="col-lg-12">
                   <div className="card-body" >
-                  <li className="list-group-item list-group-item-action list-group-item-warning">ALL</li>
+                  <a href="https://flaskcarapi.herokuapp.com/api">
+                  <li className="list-group-item list-group-item-action list-group-item-warning">Go To Admin</li>
+                  </a>
                   <br></br>
                    
                      
-                       <ul className ="list-group">
-                       <li className="list-group-item list-group-item-action list-group-item-warning">Filter by Fuel</li>
-                      
-                      
-                        
-                        <li className="list-group-item list-group-item-light">Petrol </li>
-                      
-                      
-                       
-                       <li className="list-group-item list-group-item-light">Diesel</li>
-                       <li className="list-group-item list-group-item-light">Electric</li>
-                   
-                       <br></br>
-                      <li className="list-group-item list-group-item-action list-group-item-warning">Filter by Brand</li>
-                       <li className="list-group-item list-group-item-light">Mercedes</li>
-                       <li className="list-group-item list-group-item-light">BMW</li>
-                       <li className="list-group-item list-group-item-light">Range Rover</li>
-                       <li className="list-group-item list-group-item-light">Volkswagen</li>
-                       <li className="list-group-item list-group-item-light">Other</li>
-                       
-                     </ul>
+                    
                   </div>
                 </div>
               </div>
@@ -111,7 +93,8 @@ class Content extends React.Component {
             <div className="card " >
             <div className="row no-gutters">
             <div className="col-md-5 img-col" >
-              <img src={'http://localhost:5000/static/img/'+car.image_file} className="card-img" alt="..;"/> 
+     
+              <img src={'https://flaskcarapi.herokuapp.com/static/img/'+car.image_file} className="card-img" alt="..;"/> 
             
             </div>
         
