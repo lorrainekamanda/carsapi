@@ -66,7 +66,7 @@ class Content extends React.Component {
                
                 <div className="col-lg-12">
                   <div className="card-body" >
-                  <a href="https://flaskcarapi.herokuapp.com/api">
+                  <a href="https://flaskcarapi.herokuapp.com/admin">
                   <li className="list-group-item list-group-item-action list-group-item-warning">Go To Admin</li>
                   </a>
                   <br></br>
