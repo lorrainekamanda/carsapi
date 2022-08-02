@@ -11,3 +11,53 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.content{
+  margin-top: 50px;
+  max-height: 50px;
+}
+.dash{
+  text-align: left;
+}
+.card-dash{
+  max-width: 300px;
+}
+.name-col{
+  text-align: center;
+  height: ;
+}
+.name{
+  height: 40px;
+  background-color: rgb(252, 217, 174);
+}
+.img-col{
+  margin-top:20px;
+  margin-left: 5px;
+}
+
+.wrapper {
+  display: flex;
+ justify-content: center;
+  
+ 
+}
+
+.main,
+.sidebar {
+
+  padding: 5px;
+  background-color: #fff;
+}
+
+.main {
+justify-content: center;
+margin-left: auto;
+height: fit-content;
+margin-bottom: auto;
+ 
+}
+
+.sidebar {
+top: 0;
+text-align: left;
+}
